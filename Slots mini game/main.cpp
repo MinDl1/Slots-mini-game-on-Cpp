@@ -4,6 +4,7 @@
 //
 //  Created by MinDl on 17.11.2021.
 //
+#include <cstdlib>
 #include <time.h>
 #include <iostream>
 using namespace std;
@@ -103,6 +104,7 @@ int main(int argc, const char * argv[]) {
     else{
         cout<<"Money:"<<money<<endl<<"Well played"<<endl;
     }
+    system("pause>nul");
 }
 //Function to count money
 void count_money(int *a,double &money,double &bet,int &slot){
