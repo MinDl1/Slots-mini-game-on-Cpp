@@ -5,6 +5,8 @@
 //  Created by MinDl on 17.11.2021.
 //
 #include <iostream>
+#include <limits>
+#include <time.h>
 using namespace std;
 
 void count_money(int *a,double &money,double &bet,int &slot); //Prototype of function to count money
