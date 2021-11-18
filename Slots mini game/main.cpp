@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  casino
+//  Slots mini game
 //
 //  Created by MinDl on 17.11.2021.
 //
