@@ -4,9 +4,8 @@
 //
 //  Created by MinDl on 17.11.2021.
 //
-#include <iostream>
-#include <limits>
 #include <time.h>
+#include <iostream>
 using namespace std;
 
 void count_money(int *a,double &money,double &bet,int &slot); //Prototype of function to count money
@@ -33,7 +32,7 @@ int main(int argc, const char * argv[]) {
         else{
             cout<<"Wrong input"<<endl;
             cin.clear();
-            cin.ignore(numeric_limits<double>::max(),'\n');
+            cin.ignore(money<=0,'\n');
         }
     }
     while(exit!="exit"){
@@ -49,7 +48,7 @@ int main(int argc, const char * argv[]) {
                     else{
                         cout<<"Wrong input"<<endl;
                         cin.clear();
-                        cin.ignore(numeric_limits<int>::max(),'\n');
+                        cin.ignore(slot<0,'\n');
                     }
                 }
                 if(slot<3)slot=3;
@@ -64,7 +63,7 @@ int main(int argc, const char * argv[]) {
                     else{
                         cout<<"Wrong input"<<endl;
                         cin.clear();
-                        cin.ignore(numeric_limits<double>::max(),'\n');
+                        cin.ignore(bet<=0,'\n');
                     }
                 }
             }
@@ -77,7 +76,7 @@ int main(int argc, const char * argv[]) {
                     else{
                         cout<<"Wrong input"<<endl;
                         cin.clear();
-                        cin.ignore(numeric_limits<double>::max(),'\n');
+                        cin.ignore(money<=0,'\n');
                     }
                     if(money==0){
                         money=bet;
