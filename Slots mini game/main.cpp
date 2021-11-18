@@ -31,7 +31,7 @@ int main(int argc, const char * argv[]) {
         else{
             cout<<"Wrong input"<<endl;
             cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(),'\n');
+            cin.ignore(numeric_limits<double>::max(),'\n');
         }
     }
     while(exit!="exit"){
@@ -47,7 +47,7 @@ int main(int argc, const char * argv[]) {
                     else{
                         cout<<"Wrong input"<<endl;
                         cin.clear();
-                        cin.ignore(numeric_limits<streamsize>::max(),'\n');
+                        cin.ignore(numeric_limits<int>::max(),'\n');
                     }
                 }
                 if(slot<3)slot=3;
@@ -62,7 +62,7 @@ int main(int argc, const char * argv[]) {
                     else{
                         cout<<"Wrong input"<<endl;
                         cin.clear();
-                        cin.ignore(numeric_limits<streamsize>::max(),'\n');
+                        cin.ignore(numeric_limits<double>::max(),'\n');
                     }
                 }
             }
@@ -75,7 +75,7 @@ int main(int argc, const char * argv[]) {
                     else{
                         cout<<"Wrong input"<<endl;
                         cin.clear();
-                        cin.ignore(numeric_limits<streamsize>::max(),'\n');
+                        cin.ignore(numeric_limits<double>::max(),'\n');
                     }
                     if(money==0){
                         money=bet;
