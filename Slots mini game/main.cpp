@@ -12,7 +12,7 @@ void count_money(int *a,double &money,double &bet,int &slot); //Prototype of fun
 int main(int argc, const char * argv[]) {
     srand(time(0));
 //  Casino lettering with ASCII
-    cout<<"                              o8o\n                              `''\n.ooooo.   .oooo.    .oooo.o oooo  ooo. .oo.    .ooooo.\nd88' `'Y8 `P  )88b  d88(  '8 `888  `888P'Y88b  d88' `88b\n888        .oP'888  `'Y88b.   888   888   888  888   888\n888   .o8 d8(  888  o.  )88b  888   888   888  888   888\n`Y8bod8P' `Y888'8o 8''888P' o888o o888o o888o `Y8bod8P'\n"<<endl;
+    cout<<"                             o8o\n                             `''\n.ooooo.   .oooo.    .oooo.o oooo  ooo. .oo.    .ooooo.\nd88' `'Y8 `P  )88b  d88(  '8 `888  `888P'Y88b  d88' `88b\n888        .oP'888  `'Y88b.   888   888   888  888   888\n888   .o8 d8(  888  o.  )88b  888   888   888  888   888\n`Y8bod8P' `Y888'8o 8''888P' o888o o888o o888o `Y8bod8P'\n"<<endl;
 //  Slot visualization
     string slot_top3 = "_-_-_-_-_-_-_\n|/ \\|/ \\|/ \\|\n";
     string slot_down3 = "\n|\\ /|\\ /|\\ /|\n‾-‾-‾-‾-‾-‾-‾\n";
